@@ -9,7 +9,7 @@ describe("Ratings API", () => {
     fetch.resetMocks();
   });
 
-  it("call the ratings api with the provided page number and returns the data", async () => {
+  it("call  the ratings api with the provided page number and returns the data", async () => {
     // Given
     let pageNum = 1;
     let expected = { testing: "test" };

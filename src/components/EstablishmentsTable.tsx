@@ -12,7 +12,7 @@ export const EstablishmentsTable: React.FC<{
   establishments: { [key: string]: string }[] | null | undefined;
 }> = ({ establishments }) => {
   return (
-    <table>
+    <table data-testid="establishments-table">
       <tbody>
         <tr>
           <th style={headerStyle}>Business Name</th>
